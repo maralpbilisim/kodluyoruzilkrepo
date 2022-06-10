@@ -2,6 +2,8 @@
 
 Bu repo [Kodluyoruz](https://www.patika.dev/tr) Front-End Eğitiminde oluşturduğunuz ilk repo,İçerisinde  bir adet README dosyası,bir adet de index.html barındırıyor.
 
+![resim](https://github.com/maralpbilisim/kodluyoruzilkrepo/blob/main/Ads%C4%B1z.jpg)
+
 ## Installation
 
 
@@ -28,4 +30,4 @@ Pull requestler kabul edilir.Büyük değişiklikler için,lütfen önce neyi de
 ## License
 
 
-[MIT](https://www.mit.edu/)
+[MIT](https://choosealicense.com/licenses/mit/)
