@@ -7,7 +7,7 @@ Bu repo [Kodluyoruz](https://www.patika.dev/tr) Front-End Eğitiminde oluşturdu
 
 Öncelikle projeyi clonelayın.
 
-``` git clone https://github.com/maralpbilisim/kodluyoruzilkrepo.git ```
+` git clone https://github.com/maralpbilisim/kodluyoruzilkrepo.git `
 
 ## Usage
 
