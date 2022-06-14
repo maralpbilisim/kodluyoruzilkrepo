@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body{
+    background-color:aqua;
+    text-align: center;
+}
+li{
+   display: inline;
+   font-size: 30px;
+   color:red;
+}
+.baslik{
+    font-size:25px;
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+#resim{
+    border-radius: 40px;
+}
+.yaslama{
+    float: left;
+    margin: 50px;
+}
+.clear{
+  clear: both;
+  }
+article p{
+    font-weight: bold;
+    color:brown
+}
