@@ -5,6 +5,11 @@
   margin-right: 16px;
   font-family: arial,sans-serif;
   font-size: 13px;
+ 
+}
+.panel .headerli {
+  display: inline-block;
+  float: right;
 }
 
 .headerli a {
@@ -14,7 +19,10 @@
   padding: 5px 5px;
   text-decoration: none;
 }
-
+#resim{
+  width: 32px;
+  height: 32px;
+}
 .headerli a:hover {
   text-decoration: underline;
 }
@@ -34,9 +42,10 @@
   margin: 0 auto;
   margin-top: -77px;
   width: 582px;
+  border-radius: 24px;
 }
 
-.search-area:hover {
+.search-area:hover , .feelinglucky:hover, .googlesearch:hover{
 box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
@@ -45,6 +54,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   display: flex;
   padding: 5px 8px 0 16px;
   padding-left: 14px;
+ 
 }
 
 .search-img {
@@ -79,6 +89,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   line-height: 34px;
   height: 34px !important;
   display: block;
+  
 }
 
 .input {
@@ -102,8 +113,17 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
+  border: none;
+  width: 480px;
+ 
 }
-
+.search-image{
+  margin-top: 5px;
+}
+.buttons{
+  text-align: center;
+  margin-top: 20px;
+}
 .googlesearch {
   margin: 11px 4px;
   padding: 0 16px;
@@ -112,15 +132,26 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   cursor: pointer;
   user-select: none;
+  border: 1px solid  #f2f2f2 ;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#5f6368;
+  height: 36px;
 }
 
 .feelinglucky {
+  margin:11px 4px;
   padding: 0 16px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
   cursor: pointer;
   user-select: none;
+  border: 1px solid  #f2f2f2 ;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#5f6368;
+  height: 36px;
 }
 
 .footer {
@@ -134,6 +165,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  background-color: #f2f2f2;
+  list-style-type: none;
 }
 
 .footerli {
