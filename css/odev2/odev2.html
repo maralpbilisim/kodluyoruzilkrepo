@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOOGLE</title>
     <style>
+        *{
+            box-sizing: border-box; 
+        }
         body{
             background-color:#FFFFFF ;
         }
         .container{
-            margin-top: 0em;
             text-align: center;
+            margin:0 5%;
         }
         .center{
            
@@ -20,11 +23,80 @@
             width: 351px;
             height: 113px;
         }
+        #search{
+            background-color: #EEEEEE;
+        }
+        .box{
+            float: left;
+            height: 100px;
+        }
+        .box1{
+            background-color: #7EE5DA;
+            width:35%;
+            padding-top: 5px;
+        }
+        .box2{
+            background-color: #70CCC2;
+            width:20%;
+            padding-top: 10px;
+        }
+        .box3{
+            background-color: #62B3AA;
+            width: 45%;
+            padding-top: 0px;
+        }
+        ul{
+            list-style-type:none ;
+        }
+        li{
+            margin: 0;
+            padding: 0;
+        }
+        .clear{
+            clear:both;
+        }
+        #content{
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="img/google.jpg" alt="Google" class="center">
+        <div id="search">
+            Search the web using Google!
+            <br>
+            <input type="text" value size="40">
+            <br>
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm feeling lucky">
+        </div>
+        <div id="content">
+            <div class="box box1">
+                <ul>
+                    <li>Special Searches</li>
+                   <a href="/web/19981202230410/http://www.google.com/stanford"> <li>Stanford Search</li></a>
+                   <a href="/web/19981202230410/http://www.google.com/linux"> <li>Linux Search</li></a>
+                </ul>
+            </div>
+            <div class="box box2">
+                <a href="help.html">Help!</a><br>
+                     <a href="about.html">About Google!</a><br>
+                    <a href="company.html">Company Info</a><br>
+                    <a href="stickers.html">Google! Logos</a><br>
+                </ul>
+            </div>
+            <div class="box box3">
+                <ul>
+                    <li>Get Google! </li>
+                    <li> updates monthly: </li>
+                    <li><input type="text" name="emailaddr" value="your e-mail"></li>
+                    <li><input type="submit" name="SubmitAction" value="Subscribe">&nbsp; &nbsp;<a href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/">Archive</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <p>Copyright ©1998 Google Inc.</p>
+        </div>
     </div>
 </body>
 </html>
