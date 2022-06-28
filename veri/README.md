@@ -1,9 +1,13 @@
-1.
-[2,27,16,22,18,6] Dizinin en küçük elemanını bulup yazma 22 ile 2 yerdeğiştirdi.
+1.[2,27,16,22,18,6] Dizinin en küçük elemanını bulup yazdı 22 ile 2 yerdeğiştirdi.
+
 [2,6,16,22,18,27] 27 ile 6 yerdeğitirdi.
+
 [2,6,16,22,18,27] 16 kalan elemanlardan küçük olduğu için kaldı.
+
 [2,6,16,18,22,27] 18 ile 22 yer değiştirdi.
+
 [2,6,16,18,22,27] 22 kalan elemanlardan küçük devam etti
+
 [2,6,16,18,22,27] 27 en büyük işlemi bitirdi
 
 2.O(n²) = O(6²) = O(36)
@@ -12,7 +16,9 @@
 
 4.Dizi sıralandıktan sonra 18 sayısı Average case kapsamına girer.
 
-.[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
 .[2,3,5,8,7,9,4,15,6] 7 ile 2 yer değiştirdi.
 
