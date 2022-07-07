@@ -34,7 +34,7 @@
   </body>
   <script>let isim=prompt("isminizi giriniz")
 
-    document.getElementById("myName").innerHTML=isim
+    document.getElementById("myName").innerHTML=`${isim[0].toUpperCase()}${isim.slice(1).toLowerCase()}`
     
     
     function showTime() {
